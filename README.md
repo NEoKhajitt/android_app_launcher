@@ -1,7 +1,8 @@
 # iriun_app_launcher for Android
 
 This PowerShell script allows you to control the **iriun Webcam** app on your Android device via ADB. You can use it to either start the app or stop it and lock the device screen. The script wakes up the device if the screen is off and ensures that the app is running.
-This can be used for another applications also, just find and update the `$packageName` of the package your would like to stop or start.
+This can be used for other applications also, just find and update the `$packageName` of the package you would like to stop or start.
+Important to note this script originated from a WFH need and I did not constantly want to move my laptop for camera on meetings, instead I setup an unused mobile phone on a desk clamp that I can start the webcam application remotely when I need it.
 
 ## Prerequisites
 
